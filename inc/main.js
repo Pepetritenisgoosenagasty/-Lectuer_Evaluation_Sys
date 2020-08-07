@@ -274,6 +274,7 @@ $(document).ready(function(){
 
       if (password !== cpassword) {
         $('.pass_error').html('<strong>Password does not match</strong>');
+        truth = false;
       }
 
       if (truth) {
